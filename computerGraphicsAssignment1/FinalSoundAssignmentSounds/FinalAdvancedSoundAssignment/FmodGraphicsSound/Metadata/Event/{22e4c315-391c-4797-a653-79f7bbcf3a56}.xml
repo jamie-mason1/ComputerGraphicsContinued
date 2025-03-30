@@ -140,7 +140,11 @@
 			<destination>{5f523b30-9939-48b0-99b1-e7699b4943e9}</destination>
 		</relationship>
 	</object>
-	<object class="CompressorEffect" id="{6d14b12d-91b7-4858-b396-40f2c1a1310c}" />
+	<object class="CompressorEffect" id="{6d14b12d-91b7-4858-b396-40f2c1a1310c}">
+		<property name="gain">
+			<value>3.5</value>
+		</property>
+	</object>
 	<object class="LoudnessMeter" id="{4a87af6e-4230-48fa-b422-b80b56d24fe6}">
 		<property name="loudnessTarget">
 			<value>-14</value>

@@ -132,7 +132,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{1c8a779d-d546-41d5-944a-000b02295697}" />
-	<object class="CompressorEffect" id="{993f6051-7c1e-4e49-b098-7b400338567b}" />
+	<object class="CompressorEffect" id="{993f6051-7c1e-4e49-b098-7b400338567b}">
+		<property name="gain">
+			<value>6.5</value>
+		</property>
+	</object>
 	<object class="LoudnessMeter" id="{6797ea5e-f4db-4397-914d-cec76889ffc9}">
 		<property name="loudnessTarget">
 			<value>-14</value>
