@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{df3d89d3-f888-4ab3-9c20-cabd281784c7}">
+		<property name="assetPath">
+			<value>DeepRumble.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>7</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2ac5ae71-f805-4e18-906b-78ce0b4e2b8c}</destination>
+		</relationship>
+	</object>
+</objects>

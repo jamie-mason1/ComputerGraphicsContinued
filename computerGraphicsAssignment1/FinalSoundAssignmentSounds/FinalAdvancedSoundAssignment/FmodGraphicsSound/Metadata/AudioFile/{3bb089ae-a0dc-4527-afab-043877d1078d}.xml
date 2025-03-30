@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{3bb089ae-a0dc-4527-afab-043877d1078d}">
+		<property name="assetPath">
+			<value>UIRestart.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.2679818594104308</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2ac5ae71-f805-4e18-906b-78ce0b4e2b8c}</destination>
+		</relationship>
+	</object>
+</objects>

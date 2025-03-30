@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{f7824725-a8ef-499c-9e5a-347951bf3cd3}">
+		<property name="name">
+			<value>BounceIntensity</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b9df7036-9539-4297-a6c4-d56213d4f9b2}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{cc4cff53-5347-4f1d-af1d-0bc2dffe19f0}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{cc4cff53-5347-4f1d-af1d-0bc2dffe19f0}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

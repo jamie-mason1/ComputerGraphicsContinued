@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{cad7bee9-c4f6-4eec-af89-2f08d01c5175}">
+		<property name="assetPath">
+			<value>BallRolling.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.3695691609977324</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2ac5ae71-f805-4e18-906b-78ce0b4e2b8c}</destination>
+		</relationship>
+	</object>
+</objects>

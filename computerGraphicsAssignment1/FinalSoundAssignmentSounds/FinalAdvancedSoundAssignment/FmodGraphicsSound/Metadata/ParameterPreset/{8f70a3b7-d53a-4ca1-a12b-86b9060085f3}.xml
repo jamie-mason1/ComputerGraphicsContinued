@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{8f70a3b7-d53a-4ca1-a12b-86b9060085f3}">
+		<property name="name">
+			<value>RollIntensity</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b9df7036-9539-4297-a6c4-d56213d4f9b2}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{17142522-5f5a-42d6-96b0-c48960d69eb5}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{17142522-5f5a-42d6-96b0-c48960d69eb5}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
