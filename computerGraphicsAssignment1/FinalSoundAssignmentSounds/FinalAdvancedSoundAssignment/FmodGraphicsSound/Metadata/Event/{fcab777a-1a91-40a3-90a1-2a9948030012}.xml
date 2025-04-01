@@ -125,7 +125,7 @@
 			<value>0.051791383219954648</value>
 		</property>
 		<property name="playlistMode">
-			<value>1</value>
+			<value>3</value>
 		</property>
 		<relationship name="automators">
 			<destination>{185b0021-bdd5-45ef-ac66-e46992cfdceb}</destination>
@@ -144,7 +144,11 @@
 	<object class="MixerBusPanner" id="{1b4583c8-ef04-4709-bc8d-29b64d19fe5b}" />
 	<object class="MixerBusEffectChain" id="{13a438f6-6e0f-4541-8b3d-8c6c795bfca7}">
 		<relationship name="effects">
+			<destination>{3ba5124d-73e5-4d21-9619-d98f6e541ef1}</destination>
+			<destination>{cef1350c-5dd8-485c-98da-4f288f2b9eeb}</destination>
+			<destination>{5eafc409-1aef-411f-95a1-757d719fa362}</destination>
 			<destination>{70b3317b-7e59-40c4-bbb6-747a25da88b5}</destination>
+			<destination>{91d3a16f-c29f-4842-ad36-dc8ee47db06d}</destination>
 			<destination>{343968ad-969f-4f29-ac62-f4481bfdf427}</destination>
 			<destination>{e186d2db-cfad-4de9-b9a7-08f0403633bd}</destination>
 			<destination>{5206a26a-8a21-46a6-af65-785207c93ed9}</destination>
@@ -180,8 +184,34 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{56dbfa07-6744-4e6a-930f-30152b1584ba}" />
+	<object class="TremoloEffect" id="{3ba5124d-73e5-4d21-9619-d98f6e541ef1}">
+		<property name="shape">
+			<value>0.629999995</value>
+		</property>
+		<property name="phase">
+			<value>0.799999952</value>
+		</property>
+	</object>
+	<object class="LowpassEffect" id="{cef1350c-5dd8-485c-98da-4f288f2b9eeb}">
+		<property name="cutoff">
+			<value>1000</value>
+		</property>
+	</object>
+	<object class="FlangerEffect" id="{5eafc409-1aef-411f-95a1-757d719fa362}">
+		<property name="rate">
+			<value>3.20000005</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{70b3317b-7e59-40c4-bbb6-747a25da88b5}" />
+	<object class="DistortionEffect" id="{91d3a16f-c29f-4842-ad36-dc8ee47db06d}">
+		<property name="level">
+			<value>0.870000005</value>
+		</property>
+	</object>
 	<object class="SFXReverbEffect" id="{343968ad-969f-4f29-ac62-f4481bfdf427}">
+		<property name="highCut">
+			<value>100</value>
+		</property>
 		<relationship name="automators">
 			<destination>{a26bab83-30ae-4e80-957d-afffdfeab5d9}</destination>
 			<destination>{1cfa41db-b294-4ae9-bd1a-286a9009f6ac}</destination>

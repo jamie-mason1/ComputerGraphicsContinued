@@ -237,6 +237,9 @@
 		<property name="threshold">
 			<value>-6.5</value>
 		</property>
+		<property name="gain">
+			<value>13</value>
+		</property>
 	</object>
 	<object class="LoudnessMeter" id="{44b5ff05-0ff6-4601-8fc4-e355d54fcb60}">
 		<property name="loudnessTarget">

@@ -88,7 +88,7 @@ MonoBehaviour:
   StudioPath: 
   Min: -1
   Max: 1
-  Default: -1
+  Default: -0.4
   ID:
     data1: 3452064463
     data2: 3848354097
@@ -107,6 +107,30 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Bounce/WetLevel
+  m_EditorClassIdentifier: 
+  Name: WetLevel
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1427156126
+    data2: 3445758427
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8939431261183549512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Crackling/WetLevel
   m_EditorClassIdentifier: 
   Name: WetLevel
   StudioPath: 
@@ -160,7 +184,55 @@ MonoBehaviour:
   StudioPath: 
   Min: -1
   Max: 1
-  Default: -1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8625550553384852738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Check/DensityReverb
+  m_EditorClassIdentifier: 
+  Name: DensityReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3338417344
+    data2: 1493020087
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8599796777457876378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Roll/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
   ID:
     data1: 3452064463
     data2: 3848354097
@@ -208,7 +280,79 @@ MonoBehaviour:
   StudioPath: 
   Min: -1
   Max: 1
-  Default: -1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8541361846621943503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Crackling/DiffuseReverb
+  m_EditorClassIdentifier: 
+  Name: DiffuseReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 494133788
+    data2: 1556820638
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8529546335254881528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Explosion/ReverbTime
+  m_EditorClassIdentifier: 
+  Name: ReverbTime
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4111248738
+    data2: 2996271287
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8496357091706595800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Explosion/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
   ID:
     data1: 3452064463
     data2: 3848354097
@@ -249,6 +393,58 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 51
+--- !u!114 &-8384058919300160520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Restart
+  m_EditorClassIdentifier: 
+  Path: event:/Restart
+  Guid:
+    Data1: -1547238161
+    Data2: 1301901018
+    Data3: 841384346
+    Data4: -473753301
+  Banks:
+  - {fileID: -96952879752970010}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -7325193423770736179}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1263
+--- !u!114 &-8330683745254266557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Popping/DensityReverb
+  m_EditorClassIdentifier: 
+  Name: DensityReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3338417344
+    data2: 1493020087
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-8311634666229172081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -297,6 +493,35 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-8207423329094474934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BackgroundMusicEngaged
+  m_EditorClassIdentifier: 
+  Path: event:/BackgroundMusicEngaged
+  Guid:
+    Data1: -1730908938
+    Data2: 1193654028
+    Data3: -847599687
+    Data4: 1843460965
+  Banks:
+  - {fileID: -96952879752970010}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6335248718172851567}
+  - {fileID: 6353263941629611099}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 140435
 --- !u!114 &-8206727009004370714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -313,7 +538,7 @@ MonoBehaviour:
   StudioPath: 
   Min: -1
   Max: 1
-  Default: -1
+  Default: -0.4
   ID:
     data1: 3452064463
     data2: 3848354097
@@ -349,6 +574,38 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 48
+--- !u!114 &-8160350152341876275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LavaRumble
+  m_EditorClassIdentifier: 
+  Path: event:/LavaRumble
+  Guid:
+    Data1: 1575167367
+    Data2: 1299476789
+    Data3: 339074736
+    Data4: -186221187
+  Banks:
+  - {fileID: -96952879752970010}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 3272474494833491649}
+  - {fileID: -4229053456948119000}
+  - {fileID: -4635104346788763750}
+  - {fileID: 9218548639648456324}
+  - {fileID: -3927646486961552016}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7000
 --- !u!114 &-8132657610742686403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -478,6 +735,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 151
+--- !u!114 &-7854951481859874204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Check/GoToLoop
+  m_EditorClassIdentifier: 
+  Name: GoToLoop
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3101506238
+    data2: 2314111842
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-7846597283076152795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -518,7 +799,7 @@ MonoBehaviour:
   StudioPath: 
   Min: -1
   Max: 1
-  Default: -1
+  Default: -0.4
   ID:
     data1: 3452064463
     data2: 3848354097
@@ -574,6 +855,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-7325193423770736179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Restart/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-7171216575994591349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -607,6 +912,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 51
+--- !u!114 &-7153662091511547815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Explosion/DiffuseReverb
+  m_EditorClassIdentifier: 
+  Name: DiffuseReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 494133788
+    data2: 1556820638
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7101055556229875077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bounce/WetLevel
+  m_EditorClassIdentifier: 
+  Name: WetLevel
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1427156126
+    data2: 3445758427
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-6878756885195372326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -631,6 +984,86 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-6723169824727862940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Popping/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6335248718172851567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicEngaged/GoToLoop
+  m_EditorClassIdentifier: 
+  Name: GoToLoop
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3101506238
+    data2: 2314111842
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6249798103865051426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Explosion
+  m_EditorClassIdentifier: 
+  Path: event:/Explosion
+  Guid:
+    Data1: 1195803091
+    Data2: 1267683135
+    Data3: -219004000
+    Data4: -948715160
+  Banks:
+  - {fileID: -96952879752970010}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 1268519202079817272}
+  - {fileID: -7153662091511547815}
+  - {fileID: -8529546335254881528}
+  - {fileID: -4603096309088739220}
+  - {fileID: -8496357091706595800}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3000
 --- !u!114 &-6173067560887570562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -655,6 +1088,64 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-6170823973050235213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DensityReverb
+  m_EditorClassIdentifier: 
+  Name: DensityReverb
+  StudioPath: parameter:/DensityReverb
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3338417344
+    data2: 1493020087
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6161233015066026959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Check
+  m_EditorClassIdentifier: 
+  Path: event:/Check
+  Guid:
+    Data1: -684214430
+    Data2: 1171883714
+    Data3: 1036056472
+    Data4: 1436394754
+  Banks:
+  - {fileID: -96952879752970010}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -5964261879435441680}
+  - {fileID: 7993597902027920574}
+  - {fileID: -8625550553384852738}
+  - {fileID: 5065914805185659265}
+  - {fileID: -983670866190871191}
+  - {fileID: 1242188730229690625}
+  - {fileID: -7854951481859874204}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 166635
 --- !u!114 &-6151141614674017496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -703,6 +1194,59 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-6067473654908087175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BackgroundMusicNotEngaged
+  m_EditorClassIdentifier: 
+  Path: event:/BackgroundMusicNotEngaged
+  Guid:
+    Data1: 29563187
+    Data2: 1212980844
+    Data3: 621943204
+    Data4: 1973251619
+  Banks:
+  - {fileID: -96952879752970010}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 3700141349710061240}
+  - {fileID: -2567730703566348479}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 130440
+--- !u!114 &-5964261879435441680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Check/RollSpeed
+  m_EditorClassIdentifier: 
+  Name: RollSpeed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2120290521
+    data2: 1955253808
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-5866423833247233847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -747,6 +1291,63 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-5140502001140132691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DiffuseReverb
+  m_EditorClassIdentifier: 
+  Name: DiffuseReverb
+  StudioPath: parameter:/DiffuseReverb
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 494133788
+    data2: 1556820638
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5119508706994082077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Roll
+  m_EditorClassIdentifier: 
+  Path: event:/Roll
+  Guid:
+    Data1: 1998425942
+    Data2: 1163576430
+    Data3: -1185461111
+    Data4: -1082108570
+  Banks:
+  - {fileID: -96952879752970010}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 7724845608416228037}
+  - {fileID: -4469084053504996138}
+  - {fileID: -8599796777457876378}
+  - {fileID: 1533600000437188956}
+  - {fileID: 4939371616454753608}
+  - {fileID: 6929933633403296599}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 151
 --- !u!114 &-4920525585786800596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -800,6 +1401,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-4635104346788763750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LavaRumble/DensityReverb
+  m_EditorClassIdentifier: 
+  Name: DensityReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3338417344
+    data2: 1493020087
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-4605834387857162146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -832,6 +1457,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &-4603096309088739220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Explosion/DensityReverb
+  m_EditorClassIdentifier: 
+  Name: DensityReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3338417344
+    data2: 1493020087
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-4564201474983404169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -915,6 +1564,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 7000
+--- !u!114 &-4469084053504996138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Roll/DensityReverb
+  m_EditorClassIdentifier: 
+  Name: DensityReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3338417344
+    data2: 1493020087
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-4365689856261728764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -967,6 +1640,54 @@ MonoBehaviour:
   ID:
     data1: 4111248738
     data2: 2996271287
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4229053456948119000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LavaRumble/WetLevel
+  m_EditorClassIdentifier: 
+  Name: WetLevel
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1427156126
+    data2: 3445758427
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3927646486961552016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LavaRumble/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -1065,6 +1786,30 @@ MonoBehaviour:
     data2: 1493020087
   Type: 0
   IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3292982616284002204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bounce/BounceIntensity
+  m_EditorClassIdentifier: 
+  Name: BounceIntensity
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 287485761
+    data2: 2194673470
+  Type: 0
+  IsGlobal: 0
   Labels: []
   Exists: 1
 --- !u!114 &-3247182612565589100
@@ -1306,6 +2051,39 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1746
   Exists: 1
+--- !u!114 &-2688588863260301605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bounce
+  m_EditorClassIdentifier: 
+  Path: event:/Bounce
+  Guid:
+    Data1: -55871622
+    Data2: 1084430993
+    Data3: -1725259376
+    Data4: 301990728
+  Banks:
+  - {fileID: -96952879752970010}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -3292982616284002204}
+  - {fileID: 3632981876966388385}
+  - {fileID: 4451388193378158647}
+  - {fileID: 7398816939215922897}
+  - {fileID: -7101055556229875077}
+  - {fileID: 5689883983831397551}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 51
 --- !u!114 &-2646265282076433812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1350,6 +2128,30 @@ MonoBehaviour:
   ID:
     data1: 3338417344
     data2: 1493020087
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2567730703566348479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicNotEngaged/GoToLoop
+  m_EditorClassIdentifier: 
+  Name: GoToLoop
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3101506238
+    data2: 2314111842
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -1459,6 +2261,38 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-2195869230160097461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Popping
+  m_EditorClassIdentifier: 
+  Path: event:/Popping
+  Guid:
+    Data1: 685810309
+    Data2: 1315137556
+    Data3: -765795432
+    Data4: 1037812101
+  Banks:
+  - {fileID: -96952879752970010}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 1009865697028439116}
+  - {fileID: -1494315787426869902}
+  - {fileID: -8330683745254266557}
+  - {fileID: 6324400948744049722}
+  - {fileID: -6723169824727862940}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &-2184050593887649691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1573,6 +2407,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 166635
+--- !u!114 &-1797662675179094398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Crackling/ReverbTime
+  m_EditorClassIdentifier: 
+  Name: ReverbTime
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4111248738
+    data2: 2996271287
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-1794418209867369423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1618,7 +2476,7 @@ MonoBehaviour:
   StudioPath: 
   Min: -1
   Max: 1
-  Default: -1
+  Default: -0.4
   ID:
     data1: 3452064463
     data2: 3848354097
@@ -1682,6 +2540,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5800
+--- !u!114 &-1538719288523798142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Crackling/DensityReverb
+  m_EditorClassIdentifier: 
+  Name: DensityReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3338417344
+    data2: 1493020087
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-1518983519040350862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1702,6 +2584,78 @@ MonoBehaviour:
   ID:
     data1: 494133788
     data2: 1556820638
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1494315787426869902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Popping/WetLevel
+  m_EditorClassIdentifier: 
+  Name: WetLevel
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1427156126
+    data2: 3445758427
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1372527388772541702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Crackling/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1359217632546639971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WetLevel
+  m_EditorClassIdentifier: 
+  Name: WetLevel
+  StudioPath: parameter:/WetLevel
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1427156126
+    data2: 3445758427
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -1730,6 +2684,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-983670866190871191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Check/WetLevel
+  m_EditorClassIdentifier: 
+  Name: WetLevel
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1427156126
+    data2: 3445758427
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-981670415285711744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1754,6 +2732,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-975691669338276558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IQuitdialogue/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-934709029776797760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1769,7 +2771,7 @@ MonoBehaviour:
   Path: Assets/FmodBuild/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638788831093956393
+  lastModified: 638791036590229869
   FileSizes:
   - Name: Desktop
     Value: 1874
@@ -1842,7 +2844,7 @@ MonoBehaviour:
   StudioPath: 
   Min: -1
   Max: 1
-  Default: -1
+  Default: -0.4
   ID:
     data1: 3452064463
     data2: 3848354097
@@ -1902,6 +2904,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 638
+--- !u!114 &-173364964360361316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: parameter:/GlobalCompressor
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-108436733236819005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1931,6 +2957,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 140435
+--- !u!114 &-96952879752970010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638791038625372050
+  FileSizes:
+  - Name: Desktop
+    Value: 10313952
+  Exists: 1
 --- !u!114 &-74887517572194934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1974,7 +3020,7 @@ MonoBehaviour:
   StudioPath: 
   Min: -1
   Max: 1
-  Default: -1
+  Default: -0.4
   ID:
     data1: 3452064463
     data2: 3848354097
@@ -1995,38 +3041,38 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -934709029776797760}
-  - {fileID: 6037667465343318775}
+  - {fileID: 670226915460614170}
+  - {fileID: -96952879752970010}
   EditorEvents:
-  - {fileID: -1845935554982549076}
-  - {fileID: -4920525585786800596}
-  - {fileID: 3252583126351309926}
-  - {fileID: 7895658964562232809}
-  - {fileID: 927557122535641970}
-  - {fileID: -7171216575994591349}
-  - {fileID: 5492417706683342338}
-  - {fileID: -4538461824529376012}
-  - {fileID: -331303278069846729}
-  - {fileID: -4543118113245692211}
-  - {fileID: -4365689856261728764}
-  - {fileID: -8179715461424279896}
-  - {fileID: 4540491849958819812}
-  - {fileID: -1794418209867369423}
-  - {fileID: 6631196099137578319}
-  - {fileID: -74887517572194934}
-  - {fileID: -2890113138548994922}
+  - {fileID: 3661742601651086423}
+  - {fileID: 3479519416134583081}
+  - {fileID: -6067473654908087175}
+  - {fileID: -5119508706994082077}
+  - {fileID: 662240402959841396}
+  - {fileID: -6161233015066026959}
+  - {fileID: -2688588863260301605}
+  - {fileID: -2195869230160097461}
+  - {fileID: -8160350152341876275}
+  - {fileID: 4594713857000001938}
+  - {fileID: 8475552562050644842}
+  - {fileID: -6249798103865051426}
+  - {fileID: 5606264792460116003}
+  - {fileID: 6409209391590354227}
+  - {fileID: -8384058919300160520}
+  - {fileID: -8207423329094474934}
+  - {fileID: 6958904628943576177}
   EditorParameters:
-  - {fileID: 2276974068341120901}
-  - {fileID: -3049593269144760590}
-  - {fileID: 2504915763702657650}
-  - {fileID: 1877269336322888080}
-  - {fileID: -4663159760618837271}
-  - {fileID: -6878756885195372326}
+  - {fileID: -6170823973050235213}
+  - {fileID: 6086986085175619601}
+  - {fileID: -173364964360361316}
+  - {fileID: 5983044805940721431}
+  - {fileID: -5140502001140132691}
+  - {fileID: -1359217632546639971}
   MasterBanks:
-  - {fileID: 6037667465343318775}
+  - {fileID: -96952879752970010}
   StringsBanks:
-  - {fileID: -934709029776797760}
-  cacheTime: 638788831093956393
+  - {fileID: 670226915460614170}
+  cacheTime: 638791038625391993
   cacheVersion: 131846
 --- !u!114 &311333464878806050
 MonoBehaviour:
@@ -2128,6 +3174,58 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &662240402959841396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Crackling
+  m_EditorClassIdentifier: 
+  Path: event:/Crackling
+  Guid:
+    Data1: 449675106
+    Data2: 1244651487
+    Data3: 464245916
+    Data4: 146851023
+  Banks:
+  - {fileID: -96952879752970010}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -1372527388772541702}
+  - {fileID: -1538719288523798142}
+  - {fileID: -1797662675179094398}
+  - {fileID: -8939431261183549512}
+  - {fileID: -8541361846621943503}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5800
+--- !u!114 &670226915460614170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638791038625391993
+  FileSizes:
+  - Name: Desktop
+    Value: 1874
+  Exists: 1
 --- !u!114 &725132689494891377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2148,6 +3246,30 @@ MonoBehaviour:
   ID:
     data1: 4111248738
     data2: 2996271287
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &759306384630636501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UISelect/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -2258,6 +3380,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &1009865697028439116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Popping/DiffuseReverb
+  m_EditorClassIdentifier: 
+  Name: DiffuseReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 494133788
+    data2: 1556820638
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &1078258527199248746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2322,10 +3468,34 @@ MonoBehaviour:
   StudioPath: 
   Min: -1
   Max: 1
-  Default: -1
+  Default: -0.4
   ID:
     data1: 3452064463
     data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1242188730229690625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Check/DiffuseReverb
+  m_EditorClassIdentifier: 
+  Name: DiffuseReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 494133788
+    data2: 1556820638
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -2362,6 +3532,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3000
+--- !u!114 &1268519202079817272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Explosion/WetLevel
+  m_EditorClassIdentifier: 
+  Name: WetLevel
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1427156126
+    data2: 3445758427
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &1521501399650934388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2384,6 +3578,30 @@ MonoBehaviour:
     data2: 3445758427
   Type: 0
   IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1533600000437188956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Roll/RollSpeed
+  m_EditorClassIdentifier: 
+  Name: RollSpeed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2120290521
+    data2: 1955253808
+  Type: 0
+  IsGlobal: 0
   Labels: []
   Exists: 1
 --- !u!114 &1839027639223049338
@@ -2522,7 +3740,7 @@ MonoBehaviour:
   StudioPath: parameter:/GlobalCompressor
   Min: -1
   Max: 1
-  Default: -1
+  Default: -0.4
   ID:
     data1: 3452064463
     data2: 3848354097
@@ -2587,6 +3805,57 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 151
+--- !u!114 &3272474494833491649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LavaRumble/DiffuseReverb
+  m_EditorClassIdentifier: 
+  Name: DiffuseReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 494133788
+    data2: 1556820638
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3479519416134583081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/StartMusic
+  m_EditorClassIdentifier: 
+  Path: event:/StartMusic
+  Guid:
+    Data1: 1330580504
+    Data2: 1254885674
+    Data3: 310072970
+    Data4: 1469546569
+  Banks:
+  - {fileID: -96952879752970010}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 115450
 --- !u!114 &3551655971562757949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2607,6 +3876,82 @@ MonoBehaviour:
   ID:
     data1: 3101506238
     data2: 2314111842
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3632981876966388385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bounce/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3661742601651086423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UIUp
+  m_EditorClassIdentifier: 
+  Path: event:/UIUp
+  Guid:
+    Data1: 585417493
+    Data2: 1201092892
+    Data3: -143043674
+    Data4: 1446694843
+  Banks:
+  - {fileID: -96952879752970010}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4805913422536231178}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 102
+--- !u!114 &3700141349710061240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicNotEngaged/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -2683,6 +4028,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &4451388193378158647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bounce/ReverbTime
+  m_EditorClassIdentifier: 
+  Name: ReverbTime
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4111248738
+    data2: 2996271287
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &4460732287510169800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2735,6 +4104,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1263
+--- !u!114 &4594713857000001938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/IQuitdialogue
+  m_EditorClassIdentifier: 
+  Path: event:/IQuitdialogue
+  Guid:
+    Data1: 2073128878
+    Data2: 1226900226
+    Data3: 1245935528
+    Data4: 1806245690
+  Banks:
+  - {fileID: -96952879752970010}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -975691669338276558}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 638
 --- !u!114 &4788391915419891345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2757,6 +4154,54 @@ MonoBehaviour:
     data2: 2194673470
   Type: 0
   IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &4805913422536231178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIUp/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4939371616454753608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Roll/WetLevel
+  m_EditorClassIdentifier: 
+  Name: WetLevel
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1427156126
+    data2: 3445758427
+  Type: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &4943336733586983282
@@ -2855,6 +4300,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &5065914805185659265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Check/ReverbTime
+  m_EditorClassIdentifier: 
+  Name: ReverbTime
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4111248738
+    data2: 2996271287
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &5492417706683342338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2887,6 +4356,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &5606264792460116003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LoseSong
+  m_EditorClassIdentifier: 
+  Path: event:/LoseSong
+  Guid:
+    Data1: 1248131557
+    Data2: 1223114344
+    Data3: 1032167590
+    Data4: -1444601960
+  Banks:
+  - {fileID: -96952879752970010}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 248633
 --- !u!114 &5629343466153608943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2907,6 +4403,30 @@ MonoBehaviour:
   ID:
     data1: 1427156126
     data2: 3445758427
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5689883983831397551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bounce/DiffuseReverb
+  m_EditorClassIdentifier: 
+  Name: DiffuseReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 494133788
+    data2: 1556820638
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -2999,7 +4519,7 @@ MonoBehaviour:
   StudioPath: 
   Min: -1
   Max: 1
-  Default: -1
+  Default: -0.4
   ID:
     data1: 3452064463
     data2: 3848354097
@@ -3055,6 +4575,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &5983044805940721431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GoToLoop
+  m_EditorClassIdentifier: 
+  Name: GoToLoop
+  StudioPath: parameter:/GoToLoop
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3101506238
+    data2: 2314111842
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &6037667465343318775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3070,10 +4614,34 @@ MonoBehaviour:
   Path: Assets/FmodBuild/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638788831093926441
+  lastModified: 638791036590199942
   FileSizes:
   - Name: Desktop
-    Value: 10313376
+    Value: 10313952
+  Exists: 1
+--- !u!114 &6086986085175619601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ReverbTime
+  m_EditorClassIdentifier: 
+  Name: ReverbTime
+  StudioPath: parameter:/ReverbTime
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4111248738
+    data2: 2996271287
+  Type: 0
+  IsGlobal: 1
+  Labels: []
   Exists: 1
 --- !u!114 &6148411567346294996
 MonoBehaviour:
@@ -3099,6 +4667,54 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &6324400948744049722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Popping/ReverbTime
+  m_EditorClassIdentifier: 
+  Name: ReverbTime
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4111248738
+    data2: 2996271287
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6353263941629611099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicEngaged/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &6375585557237203748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3115,7 +4731,7 @@ MonoBehaviour:
   StudioPath: 
   Min: -1
   Max: 1
-  Default: -1
+  Default: -0.4
   ID:
     data1: 3452064463
     data2: 3848354097
@@ -3123,6 +4739,34 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &6409209391590354227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UISelect
+  m_EditorClassIdentifier: 
+  Path: event:/UISelect
+  Guid:
+    Data1: -1072265752
+    Data2: 1307842321
+    Data3: 1582728892
+    Data4: 2105693596
+  Banks:
+  - {fileID: -96952879752970010}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 759306384630636501}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 48
 --- !u!114 &6450127083120690084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3139,7 +4783,7 @@ MonoBehaviour:
   StudioPath: 
   Min: -1
   Max: 1
-  Default: -1
+  Default: -0.4
   ID:
     data1: 3452064463
     data2: 3848354097
@@ -3303,6 +4947,58 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 7000
+--- !u!114 &6929933633403296599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Roll/DiffuseReverb
+  m_EditorClassIdentifier: 
+  Name: DiffuseReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 494133788
+    data2: 1556820638
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6958904628943576177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UIDown
+  m_EditorClassIdentifier: 
+  Path: event:/UIDown
+  Guid:
+    Data1: -1676610051
+    Data2: 1317726073
+    Data3: 1304831650
+    Data4: -1219667741
+  Banks:
+  - {fileID: -96952879752970010}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 8139838752739873804}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 45
 --- !u!114 &6998074253201665717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3319,7 +5015,7 @@ MonoBehaviour:
   StudioPath: 
   Min: -1
   Max: 1
-  Default: -1
+  Default: -0.4
   ID:
     data1: 3452064463
     data2: 3848354097
@@ -3347,6 +5043,54 @@ MonoBehaviour:
   ID:
     data1: 3452064463
     data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7398816939215922897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bounce/DensityReverb
+  m_EditorClassIdentifier: 
+  Name: DensityReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3338417344
+    data2: 1493020087
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7724845608416228037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Roll/ReverbTime
+  m_EditorClassIdentifier: 
+  Name: ReverbTime
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4111248738
+    data2: 2996271287
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -3383,6 +5127,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5800
+--- !u!114 &7993597902027920574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Check/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &7996748626111151408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3399,7 +5167,7 @@ MonoBehaviour:
   StudioPath: 
   Min: -1
   Max: 1
-  Default: -1
+  Default: -0.4
   ID:
     data1: 3452064463
     data2: 3848354097
@@ -3424,6 +5192,30 @@ MonoBehaviour:
   Min: -1
   Max: 1
   Default: -1
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8139838752739873804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIDown/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
   ID:
     data1: 3452064463
     data2: 3848354097
@@ -3503,6 +5295,33 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &8475552562050644842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WinSong
+  m_EditorClassIdentifier: 
+  Path: event:/WinSong
+  Guid:
+    Data1: -1695951162
+    Data2: 1248788386
+    Data3: -953425249
+    Data4: -2051319428
+  Banks:
+  - {fileID: -96952879752970010}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 140329
 --- !u!114 &8596454434571922017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3647,6 +5466,30 @@ MonoBehaviour:
   ID:
     data1: 3101506238
     data2: 2314111842
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &9218548639648456324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LavaRumble/ReverbTime
+  m_EditorClassIdentifier: 
+  Name: ReverbTime
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4111248738
+    data2: 2996271287
   Type: 0
   IsGlobal: 1
   Labels: []
