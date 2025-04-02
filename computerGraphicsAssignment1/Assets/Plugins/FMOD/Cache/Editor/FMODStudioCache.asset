@@ -48,6 +48,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-9158194097221363543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicNotEngaged/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-9142243182195692635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,6 +116,164 @@ MonoBehaviour:
   ID:
     data1: 3452064463
     data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-9099055001208088935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DiffuseReverb
+  m_EditorClassIdentifier: 
+  Name: DiffuseReverb
+  StudioPath: parameter:/DiffuseReverb
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 494133788
+    data2: 1556820638
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-9079968634951345657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Roll
+  m_EditorClassIdentifier: 
+  Path: event:/Roll
+  Guid:
+    Data1: 1998425942
+    Data2: 1163576430
+    Data3: -1185461111
+    Data4: -1082108570
+  Banks:
+  - {fileID: 5359358127590609040}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3790548520340583941}
+  - {fileID: 4887191837279609397}
+  - {fileID: -7667984817422970344}
+  - {fileID: 6059979339922647491}
+  - {fileID: 3192667972321552145}
+  - {fileID: -7866161953061384057}
+  - {fileID: -2369263766628380896}
+  - {fileID: -1595232827218434798}
+  - {fileID: -9015417082298048781}
+  - {fileID: -1472733818544141490}
+  - {fileID: -6072658963503173275}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 151
+--- !u!114 &-9066034243364688942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Explosion/WetLevel
+  m_EditorClassIdentifier: 
+  Name: WetLevel
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1427156126
+    data2: 3445758427
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-9056876741643377896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WinSong/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-9041053638094063856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IQuitdialogue/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-9015417082298048781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Roll/WetLevel
+  m_EditorClassIdentifier: 
+  Name: WetLevel
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1427156126
+    data2: 3445758427
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -168,6 +350,54 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-8838277116403145893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bounce/ReverbTime
+  m_EditorClassIdentifier: 
+  Name: ReverbTime
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4111248738
+    data2: 2996271287
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8790153060654222938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LavaRumble/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-8685990578762252418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,30 +418,6 @@ MonoBehaviour:
   ID:
     data1: 3452064463
     data2: 3848354097
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &-8625550553384852738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Check/DensityReverb
-  m_EditorClassIdentifier: 
-  Name: DensityReverb
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3338417344
-    data2: 1493020087
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -288,6 +494,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-8543850574210683410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WinSong/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-8541361846621943503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -308,6 +538,30 @@ MonoBehaviour:
   ID:
     data1: 494133788
     data2: 1556820638
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8530785858247221497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Restart/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -356,6 +610,78 @@ MonoBehaviour:
   ID:
     data1: 3452064463
     data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8495844628922998853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicNotEngaged/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8493017676791451293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WinSong/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8482377593941262617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bounce/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -418,9 +744,38 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters:
   - {fileID: -7325193423770736179}
+  - {fileID: 761605534164407515}
+  - {fileID: -5707540572542608639}
+  - {fileID: -1780304904018782965}
+  - {fileID: 8783470720346593863}
+  - {fileID: -333061678654882034}
   MinDistance: 1
   MaxDistance: 20
   Length: 1263
+--- !u!114 &-8348615096148036506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LavaRumble/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-8330683745254266557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -469,6 +824,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-8269596322769744635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Roll/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-8252176579275715231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -491,6 +870,54 @@ MonoBehaviour:
     data2: 1955253808
   Type: 0
   IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-8249206579645201036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Popping/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8245326304741182584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UISelect/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &-8207423329094474934
@@ -519,6 +946,11 @@ MonoBehaviour:
   Parameters:
   - {fileID: -6335248718172851567}
   - {fileID: 6353263941629611099}
+  - {fileID: -2774166497073784721}
+  - {fileID: 2138816749017538104}
+  - {fileID: 1446498784865083459}
+  - {fileID: -835636954658324280}
+  - {fileID: -3642851662274364911}
   MinDistance: 1
   MaxDistance: 20
   Length: 140435
@@ -603,6 +1035,11 @@ MonoBehaviour:
   - {fileID: -4635104346788763750}
   - {fileID: 9218548639648456324}
   - {fileID: -3927646486961552016}
+  - {fileID: -2102702209954498814}
+  - {fileID: -8790153060654222938}
+  - {fileID: -8348615096148036506}
+  - {fileID: -7153536524967346379}
+  - {fileID: 2238540910732676549}
   MinDistance: 1
   MaxDistance: 20
   Length: 7000
@@ -630,6 +1067,54 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-8082161672564316190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LavaRumble/WetLevel
+  m_EditorClassIdentifier: 
+  Name: WetLevel
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1427156126
+    data2: 3445758427
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8045306861771857980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Crackling/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-8038670495039710277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -650,6 +1135,30 @@ MonoBehaviour:
   ID:
     data1: 4111248738
     data2: 2996271287
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8006386279050879750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StartMusic/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -735,7 +1244,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 151
---- !u!114 &-7854951481859874204
+--- !u!114 &-7866161953061384057
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -745,16 +1254,64 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Check/GoToLoop
+  m_Name: parameter:/Roll/EQHigh
   m_EditorClassIdentifier: 
-  Name: GoToLoop
+  Name: EQHigh
   StudioPath: 
   Min: 0
   Max: 1
-  Default: 0
+  Default: 1
   ID:
-    data1: 3101506238
-    data2: 2314111842
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7861845580712445883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Restart/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7848466279094686977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bounce/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -783,6 +1340,126 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-7843381003647358959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IQuitdialogue/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7843173649920536659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bounce/DensityReverb
+  m_EditorClassIdentifier: 
+  Name: DensityReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3338417344
+    data2: 1493020087
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7838037929119462624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LavaRumble/DensityReverb
+  m_EditorClassIdentifier: 
+  Name: DensityReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3338417344
+    data2: 1493020087
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7811470148547587268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WinSong/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7809096061025710234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bounce/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-7788273647759177719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -803,6 +1480,78 @@ MonoBehaviour:
   ID:
     data1: 3452064463
     data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7753170650795554286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIDown/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7667984817422970344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Roll/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7590564531293671436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: parameter:/EQHigh
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -879,6 +1628,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-7174810126591953109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UISelect/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-7171216575994591349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -936,6 +1709,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-7153536524967346379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LavaRumble/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-7101055556229875077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -960,6 +1757,88 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-7046170056528323196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Crackling/WetLevel
+  m_EditorClassIdentifier: 
+  Name: WetLevel
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1427156126
+    data2: 3445758427
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6988554258422653536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIDown/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6970991600056854324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BackgroundMusicNotEngaged
+  m_EditorClassIdentifier: 
+  Path: event:/BackgroundMusicNotEngaged
+  Guid:
+    Data1: 29563187
+    Data2: 1212980844
+    Data3: 621943204
+    Data4: 1973251619
+  Banks:
+  - {fileID: 5359358127590609040}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -1868704093055663608}
+  - {fileID: -3977030913539459827}
+  - {fileID: -894193563288027161}
+  - {fileID: 2401183453710676697}
+  - {fileID: 3092924262958929287}
+  - {fileID: -733754848692675971}
+  - {fileID: -1660964156400083889}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 130440
 --- !u!114 &-6878756885195372326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -980,6 +1859,62 @@ MonoBehaviour:
   ID:
     data1: 1427156126
     data2: 3445758427
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6846314815639030307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/StartMusic
+  m_EditorClassIdentifier: 
+  Path: event:/StartMusic
+  Guid:
+    Data1: 1330580504
+    Data2: 1254885674
+    Data3: 310072970
+    Data4: 1469546569
+  Banks:
+  - {fileID: 5359358127590609040}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 6702207134276460502}
+  - {fileID: -3565746486298347100}
+  - {fileID: -6420393720440141705}
+  - {fileID: -8006386279050879750}
+  - {fileID: 3322764275014409563}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 115450
+--- !u!114 &-6840774402178281802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Popping/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -1008,6 +1943,126 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-6622654289266543551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: parameter:/XHigh
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6615183843291590764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicNotEngaged/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6593540520020333474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LoseSong/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6420393720440141705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StartMusic/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6341605073671832828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIUp/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-6335248718172851567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1028,6 +2083,30 @@ MonoBehaviour:
   ID:
     data1: 3101506238
     data2: 2314111842
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6261016542054066619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DensityReverb
+  m_EditorClassIdentifier: 
+  Name: DensityReverb
+  StudioPath: parameter:/DensityReverb
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3338417344
+    data2: 1493020087
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -1064,6 +2143,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3000
+--- !u!114 &-6215326887398254225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LavaRumble/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-6173067560887570562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1112,40 +2215,6 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &-6161233015066026959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Check
-  m_EditorClassIdentifier: 
-  Path: event:/Check
-  Guid:
-    Data1: -684214430
-    Data2: 1171883714
-    Data3: 1036056472
-    Data4: 1436394754
-  Banks:
-  - {fileID: -96952879752970010}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters:
-  - {fileID: -5964261879435441680}
-  - {fileID: 7993597902027920574}
-  - {fileID: -8625550553384852738}
-  - {fileID: 5065914805185659265}
-  - {fileID: -983670866190871191}
-  - {fileID: 1242188730229690625}
-  - {fileID: -7854951481859874204}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 166635
 --- !u!114 &-6151141614674017496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1157,6 +2226,30 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Popping/DiffuseReverb
+  m_EditorClassIdentifier: 
+  Name: DiffuseReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 494133788
+    data2: 1556820638
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6072658963503173275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Roll/DiffuseReverb
   m_EditorClassIdentifier: 
   Name: DiffuseReverb
   StudioPath: 
@@ -1220,10 +2313,15 @@ MonoBehaviour:
   Parameters:
   - {fileID: 3700141349710061240}
   - {fileID: -2567730703566348479}
+  - {fileID: -6615183843291590764}
+  - {fileID: -9158194097221363543}
+  - {fileID: 5847958239149210333}
+  - {fileID: -553319173739965053}
+  - {fileID: -8495844628922998853}
   MinDistance: 1
   MaxDistance: 20
   Length: 130440
---- !u!114 &-5964261879435441680
+--- !u!114 &-5884591370835622984
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1233,18 +2331,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Check/RollSpeed
+  m_Name: parameter:/Roll/XHigh
   m_EditorClassIdentifier: 
-  Name: RollSpeed
+  Name: XHigh
   StudioPath: 
   Min: 0
   Max: 1
-  Default: 0
+  Default: 0.69
   ID:
-    data1: 2120290521
-    data2: 1955253808
+    data1: 1061227788
+    data2: 874441960
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &-5866423833247233847
@@ -1267,6 +2365,150 @@ MonoBehaviour:
   - Name: Desktop
     Value: 3724704
   Exists: 1
+--- !u!114 &-5804272705497565462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Crackling/ReverbTime
+  m_EditorClassIdentifier: 
+  Name: ReverbTime
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4111248738
+    data2: 2996271287
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5789036362940479934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIUp/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5774106585703347645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bounce/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5707540572542608639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Restart/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5555770387618924315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Popping/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5552622270811212134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LavaRumble/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-5499123171262275649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1287,6 +2529,153 @@ MonoBehaviour:
   ID:
     data1: 494133788
     data2: 1556820638
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5472691912745003475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LavaRumble
+  m_EditorClassIdentifier: 
+  Path: event:/LavaRumble
+  Guid:
+    Data1: 1575167367
+    Data2: 1299476789
+    Data3: 339074736
+    Data4: -186221187
+  Banks:
+  - {fileID: 5359358127590609040}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -4417500021489204876}
+  - {fileID: -6215326887398254225}
+  - {fileID: -5552622270811212134}
+  - {fileID: -8082161672564316190}
+  - {fileID: 5426632882627844215}
+  - {fileID: 2395340936244664145}
+  - {fileID: -3026893082009058857}
+  - {fileID: -7838037929119462624}
+  - {fileID: 8602392001072637241}
+  - {fileID: 8294382330800656080}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7000
+--- !u!114 &-5414916649556346807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: parameter:/EQ Medium
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5396648941391362887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicEngaged/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5344380785682592447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bounce
+  m_EditorClassIdentifier: 
+  Path: event:/Bounce
+  Guid:
+    Data1: -55871622
+    Data2: 1084430993
+    Data3: -1725259376
+    Data4: 301990728
+  Banks:
+  - {fileID: 5359358127590609040}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4836709369590192542}
+  - {fileID: -1067451512043272976}
+  - {fileID: -8838277116403145893}
+  - {fileID: -7843173649920536659}
+  - {fileID: -8482377593941262617}
+  - {fileID: -229129190551024058}
+  - {fileID: -7809096061025710234}
+  - {fileID: -4818215790107252829}
+  - {fileID: 2178180359033133218}
+  - {fileID: -5774106585703347645}
+  - {fileID: -2816406581235892066}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 51
+--- !u!114 &-5145733979575937982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LoseSong/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -1345,9 +2734,110 @@ MonoBehaviour:
   - {fileID: 1533600000437188956}
   - {fileID: 4939371616454753608}
   - {fileID: 6929933633403296599}
+  - {fileID: -4587278415182711866}
+  - {fileID: 9130902148072217825}
+  - {fileID: -8269596322769744635}
+  - {fileID: -5884591370835622984}
+  - {fileID: -1603965537571531509}
   MinDistance: 1
   MaxDistance: 20
   Length: 151
+--- !u!114 &-5066240947389102334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Explosion/DiffuseReverb
+  m_EditorClassIdentifier: 
+  Name: DiffuseReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 494133788
+    data2: 1556820638
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5019319473934073546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bounce/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5006583671761473302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LoseSong/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4954608735744132542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Restart/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-4920525585786800596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1377,6 +2867,150 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 130440
+--- !u!114 &-4911161364579574326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IQuitdialogue/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4903118031670745677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: parameter:/XLow
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4818215790107252829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bounce/WetLevel
+  m_EditorClassIdentifier: 
+  Name: WetLevel
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1427156126
+    data2: 3445758427
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4806955327710063340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIDown/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4736840555991114205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Popping/DensityReverb
+  m_EditorClassIdentifier: 
+  Name: DensityReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3338417344
+    data2: 1493020087
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4672584906483544747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Restart/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-4663159760618837271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1477,6 +3111,30 @@ MonoBehaviour:
   ID:
     data1: 3338417344
     data2: 1493020087
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4587278415182711866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Roll/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -1588,6 +3246,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-4417500021489204876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LavaRumble/DiffuseReverb
+  m_EditorClassIdentifier: 
+  Name: DiffuseReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 494133788
+    data2: 1556820638
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-4365689856261728764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1644,6 +3326,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-4263297778099412995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIUp/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-4229053456948119000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1664,6 +3370,160 @@ MonoBehaviour:
   ID:
     data1: 1427156126
     data2: 3445758427
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4218391972820912555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicEngaged/GoToLoop
+  m_EditorClassIdentifier: 
+  Name: GoToLoop
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3101506238
+    data2: 2314111842
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4177442557134812222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIDown/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4125951375442047660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ReverbTime
+  m_EditorClassIdentifier: 
+  Name: ReverbTime
+  StudioPath: parameter:/ReverbTime
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4111248738
+    data2: 2996271287
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3980159117668052665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BackgroundMusicEngaged
+  m_EditorClassIdentifier: 
+  Path: event:/BackgroundMusicEngaged
+  Guid:
+    Data1: -1730908938
+    Data2: 1193654028
+    Data3: -847599687
+    Data4: 1843460965
+  Banks:
+  - {fileID: 5359358127590609040}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5536135296081141415}
+  - {fileID: 1075690831015931600}
+  - {fileID: 3288940533382286121}
+  - {fileID: 2463203451744542818}
+  - {fileID: 1048427695672584435}
+  - {fileID: -4218391972820912555}
+  - {fileID: -5396648941391362887}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 140435
+--- !u!114 &-3977030913539459827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicNotEngaged/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3933012952763052833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIUp/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -1692,6 +3552,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-3907678850664943243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LoseSong/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-3810519417517427906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1703,6 +3587,78 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Check/ReverbTime
+  m_EditorClassIdentifier: 
+  Name: ReverbTime
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4111248738
+    data2: 2996271287
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3801039749883465779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIUp/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3792721614136046496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UISelect/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3790548520340583941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Roll/ReverbTime
   m_EditorClassIdentifier: 
   Name: ReverbTime
   StudioPath: 
@@ -1740,6 +3696,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-3729483007319267806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIDown/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-3711018654153524036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1760,6 +3740,54 @@ MonoBehaviour:
   ID:
     data1: 4111248738
     data2: 2996271287
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3642851662274364911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicEngaged/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3602634303256726493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIDown/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -1788,6 +3816,78 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-3565746486298347100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StartMusic/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3427567987993117451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Crackling/DensityReverb
+  m_EditorClassIdentifier: 
+  Name: DensityReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3338417344
+    data2: 1493020087
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3364105629404941489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Restart/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-3292982616284002204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1810,6 +3910,30 @@ MonoBehaviour:
     data2: 2194673470
   Type: 0
   IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3290871843359428826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: parameter:/EQ Low
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &-3247182612565589100
@@ -1836,6 +3960,43 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-3244000502282276257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Popping
+  m_EditorClassIdentifier: 
+  Path: event:/Popping
+  Guid:
+    Data1: 685810309
+    Data2: 1315137556
+    Data3: -765795432
+    Data4: 1037812101
+  Banks:
+  - {fileID: 5359358127590609040}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -792852717274985943}
+  - {fileID: 867222706572327372}
+  - {fileID: -8249206579645201036}
+  - {fileID: 5617204154897805832}
+  - {fileID: 3929656409003929920}
+  - {fileID: 3911535464083049004}
+  - {fileID: 1566051964508803567}
+  - {fileID: -4736840555991114205}
+  - {fileID: 5718580535518410746}
+  - {fileID: -5555770387618924315}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &-3200430633734376149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1908,6 +4069,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-3146560981139659641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IQuitdialogue/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-3113982838055391677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1952,6 +4137,30 @@ MonoBehaviour:
   ID:
     data1: 4111248738
     data2: 2996271287
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3026893082009058857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LavaRumble/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -2031,6 +4240,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-2816406581235892066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bounce/DiffuseReverb
+  m_EditorClassIdentifier: 
+  Name: DiffuseReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 494133788
+    data2: 1556820638
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-2780431917499026457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2051,6 +4284,62 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1746
   Exists: 1
+--- !u!114 &-2774166497073784721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicEngaged/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2733887025780512392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LoseSong
+  m_EditorClassIdentifier: 
+  Path: event:/LoseSong
+  Guid:
+    Data1: 1248131557
+    Data2: 1223114344
+    Data3: 1032167590
+    Data4: -1444601960
+  Banks:
+  - {fileID: 5359358127590609040}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -55263749073640562}
+  - {fileID: 1329795488639199897}
+  - {fileID: 593249604982927934}
+  - {fileID: -6593540520020333474}
+  - {fileID: -3907678850664943243}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 248633
 --- !u!114 &-2688588863260301605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2081,6 +4370,11 @@ MonoBehaviour:
   - {fileID: 7398816939215922897}
   - {fileID: -7101055556229875077}
   - {fileID: 5689883983831397551}
+  - {fileID: -7848466279094686977}
+  - {fileID: 3273312176738030757}
+  - {fileID: 3656434468367734296}
+  - {fileID: 8925385306114727805}
+  - {fileID: -5019319473934073546}
   MinDistance: 1
   MaxDistance: 20
   Length: 51
@@ -2104,6 +4398,30 @@ MonoBehaviour:
   ID:
     data1: 1427156126
     data2: 3445758427
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2633021585148003213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UISelect/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -2237,6 +4555,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 130440
+--- !u!114 &-2389439453861603764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IQuitdialogue/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2369263766628380896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Roll/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-2364919743078425189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2257,6 +4623,54 @@ MonoBehaviour:
   ID:
     data1: 1427156126
     data2: 3445758427
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2333461466092037127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UISelect/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2320556442765224158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: parameter:/EQ Low
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -2290,6 +4704,11 @@ MonoBehaviour:
   - {fileID: -8330683745254266557}
   - {fileID: 6324400948744049722}
   - {fileID: -6723169824727862940}
+  - {fileID: 1011863359673376056}
+  - {fileID: 484385110904494398}
+  - {fileID: -6840774402178281802}
+  - {fileID: 5039628259293318588}
+  - {fileID: 5884035672319347289}
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
@@ -2313,6 +4732,30 @@ MonoBehaviour:
   ID:
     data1: 3338417344
     data2: 1493020087
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2102702209954498814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LavaRumble/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -2345,6 +4788,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 102
+--- !u!114 &-1886389868318052094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LoseSong/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1868704093055663608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicNotEngaged/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-1845935554982549076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2460,6 +4951,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 140435
+--- !u!114 &-1782917646952777888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UISelect/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1780304904018782965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Restart/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-1681554057210438324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2504,6 +5043,102 @@ MonoBehaviour:
   ID:
     data1: 494133788
     data2: 1556820638
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1660964156400083889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicNotEngaged/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1644151297910879792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Explosion/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1603965537571531509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Roll/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1595232827218434798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Roll/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -2612,6 +5247,54 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-1472733818544141490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Roll/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1426468159509147913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UISelect/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-1372527388772541702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2660,6 +5343,54 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-1274805006850512859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WinSong/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1067451512043272976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bounce/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-1021736032669282168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2684,7 +5415,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-983670866190871191
+--- !u!114 &-1015742722592193703
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2694,16 +5425,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Check/WetLevel
+  m_Name: parameter:/WinSong/EQ Medium
   m_EditorClassIdentifier: 
-  Name: WetLevel
+  Name: EQ Medium
   StudioPath: 
   Min: 0
   Max: 1
-  Default: 0
+  Default: 1
   ID:
-    data1: 1427156126
-    data2: 3445758427
+    data1: 458552346
+    data2: 2137251956
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -2756,6 +5487,54 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-969118116938392343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IQuitdialogue/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-935595314356683106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StartMusic/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-934709029776797760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2775,6 +5554,54 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 1874
+  Exists: 1
+--- !u!114 &-894193563288027161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicNotEngaged/GoToLoop
+  m_EditorClassIdentifier: 
+  Name: GoToLoop
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3101506238
+    data2: 2314111842
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-835636954658324280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicEngaged/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
   Exists: 1
 --- !u!114 &-816219594664884058
 MonoBehaviour:
@@ -2804,6 +5631,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 638
+--- !u!114 &-792852717274985943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Popping/DiffuseReverb
+  m_EditorClassIdentifier: 
+  Name: DiffuseReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 494133788
+    data2: 1556820638
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-755101347290380908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2824,6 +5675,126 @@ MonoBehaviour:
   ID:
     data1: 3101506238
     data2: 2314111842
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-733754848692675971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicNotEngaged/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-661264440538288034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StartMusic/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-555187361091257657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIUp/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-553319173739965053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicNotEngaged/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-495065122892469808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIUp/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -2876,6 +5847,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-333061678654882034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Restart/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-331303278069846729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2904,6 +5899,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 638
+--- !u!114 &-303078820968248695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IQuitdialogue/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-229129190551024058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bounce/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-173364964360361316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2972,10 +6015,10 @@ MonoBehaviour:
   Path: Assets/FmodBuild/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638791038625372050
+  lastModified: 638792073297898857
   FileSizes:
   - Name: Desktop
-    Value: 10313952
+    Value: 10337952
   Exists: 1
 --- !u!114 &-74887517572194934
 MonoBehaviour:
@@ -3004,6 +6047,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 248633
+--- !u!114 &-55263749073640562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LoseSong/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-30537286079688496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIUp/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-17186093751091984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3041,39 +6132,67 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 670226915460614170}
-  - {fileID: -96952879752970010}
+  - {fileID: 2003868091437710751}
+  - {fileID: 5359358127590609040}
   EditorEvents:
-  - {fileID: 3661742601651086423}
-  - {fileID: 3479519416134583081}
-  - {fileID: -6067473654908087175}
-  - {fileID: -5119508706994082077}
-  - {fileID: 662240402959841396}
-  - {fileID: -6161233015066026959}
-  - {fileID: -2688588863260301605}
-  - {fileID: -2195869230160097461}
-  - {fileID: -8160350152341876275}
-  - {fileID: 4594713857000001938}
-  - {fileID: 8475552562050644842}
-  - {fileID: -6249798103865051426}
-  - {fileID: 5606264792460116003}
-  - {fileID: 6409209391590354227}
-  - {fileID: -8384058919300160520}
-  - {fileID: -8207423329094474934}
-  - {fileID: 6958904628943576177}
+  - {fileID: 7132964813996813988}
+  - {fileID: -6846314815639030307}
+  - {fileID: -6970991600056854324}
+  - {fileID: -9079968634951345657}
+  - {fileID: 5731307307580020644}
+  - {fileID: -5344380785682592447}
+  - {fileID: -3244000502282276257}
+  - {fileID: -5472691912745003475}
+  - {fileID: 1787106186435470834}
+  - {fileID: 6922655991397637665}
+  - {fileID: 5535835406656931480}
+  - {fileID: -2733887025780512392}
+  - {fileID: 675732211647882777}
+  - {fileID: 3442455425450600480}
+  - {fileID: -3980159117668052665}
+  - {fileID: 6360845339310450506}
   EditorParameters:
-  - {fileID: -6170823973050235213}
-  - {fileID: 6086986085175619601}
-  - {fileID: -173364964360361316}
-  - {fileID: 5983044805940721431}
-  - {fileID: -5140502001140132691}
-  - {fileID: -1359217632546639971}
+  - {fileID: -6261016542054066619}
+  - {fileID: -4125951375442047660}
+  - {fileID: 4143152590672520812}
+  - {fileID: 6740019788496190087}
+  - {fileID: -9099055001208088935}
+  - {fileID: -5414916649556346807}
+  - {fileID: -6622654289266543551}
+  - {fileID: 4326987149165513735}
+  - {fileID: -2320556442765224158}
+  - {fileID: 3665171914540850961}
+  - {fileID: -4903118031670745677}
   MasterBanks:
-  - {fileID: -96952879752970010}
+  - {fileID: 5359358127590609040}
   StringsBanks:
-  - {fileID: 670226915460614170}
-  cacheTime: 638791038625391993
+  - {fileID: 2003868091437710751}
+  cacheTime: 638792083239215385
   cacheVersion: 131846
+--- !u!114 &199547228791623697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Crackling/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &311333464878806050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3118,6 +6237,78 @@ MonoBehaviour:
   ID:
     data1: 3338417344
     data2: 1493020087
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &340901319901443017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StartMusic/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &363715063900425969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Crackling/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &407907524689325330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Crackling/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -3174,6 +6365,126 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &449484091944006870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WinSong/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &455661199094533969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Crackling/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &484385110904494398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Popping/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &593249604982927934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LoseSong/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &658267240672022926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: parameter:/EQ Medium
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &662240402959841396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3203,6 +6514,11 @@ MonoBehaviour:
   - {fileID: -1797662675179094398}
   - {fileID: -8939431261183549512}
   - {fileID: -8541361846621943503}
+  - {fileID: 4049020530106288770}
+  - {fileID: 407907524689325330}
+  - {fileID: 199547228791623697}
+  - {fileID: 8500448379614055197}
+  - {fileID: 2234348809046320942}
   MinDistance: 1
   MaxDistance: 20
   Length: 5800
@@ -3221,11 +6537,44 @@ MonoBehaviour:
   Path: Assets/FmodBuild/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638791038625391993
+  lastModified: 638792073297938729
   FileSizes:
   - Name: Desktop
-    Value: 1874
+    Value: 2042
   Exists: 1
+--- !u!114 &675732211647882777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UISelect
+  m_EditorClassIdentifier: 
+  Path: event:/UISelect
+  Guid:
+    Data1: -1072265752
+    Data2: 1307842321
+    Data3: 1582728892
+    Data4: 2105693596
+  Banks:
+  - {fileID: 5359358127590609040}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -2333461466092037127}
+  - {fileID: 949708582633678484}
+  - {fileID: 7159131719701173800}
+  - {fileID: -3792721614136046496}
+  - {fileID: -1426468159509147913}
+  - {fileID: -1782917646952777888}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 48
 --- !u!114 &725132689494891377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3274,6 +6623,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &761605534164407515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Restart/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &770794763565989376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3318,6 +6691,30 @@ MonoBehaviour:
   ID:
     data1: 494133788
     data2: 1556820638
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &867222706572327372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Popping/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -3380,6 +6777,54 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &949708582633678484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UISelect/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &984576253224499498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StartMusic/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &1009865697028439116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3400,6 +6845,78 @@ MonoBehaviour:
   ID:
     data1: 494133788
     data2: 1556820638
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1011863359673376056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Popping/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1048427695672584435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicEngaged/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1075690831015931600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicEngaged/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -3476,30 +6993,6 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &1242188730229690625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Check/DiffuseReverb
-  m_EditorClassIdentifier: 
-  Name: DiffuseReverb
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 494133788
-    data2: 1556820638
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
 --- !u!114 &1247552209433060474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3556,6 +7049,54 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &1329795488639199897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LoseSong/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1446498784865083459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicEngaged/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &1521501399650934388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3604,6 +7145,111 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &1566051964508803567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Popping/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1787106186435470834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/IQuitdialogue
+  m_EditorClassIdentifier: 
+  Path: event:/IQuitdialogue
+  Guid:
+    Data1: 2073128878
+    Data2: 1226900226
+    Data3: 1245935528
+    Data4: 1806245690
+  Banks:
+  - {fileID: 5359358127590609040}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -9041053638094063856}
+  - {fileID: 8574083145277153072}
+  - {fileID: -7843381003647358959}
+  - {fileID: -3146560981139659641}
+  - {fileID: 8663659305194310417}
+  - {fileID: -2389439453861603764}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 638
+--- !u!114 &1804683106018097152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIUp/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1807830867938988856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LoseSong/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &1839027639223049338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3648,6 +7294,170 @@ MonoBehaviour:
   ID:
     data1: 3101506238
     data2: 2314111842
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2003868091437710751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638792083239215385
+  FileSizes:
+  - Name: Desktop
+    Value: 2042
+  Exists: 1
+--- !u!114 &2050791441073530597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: parameter:/XHigh
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2138816749017538104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicEngaged/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2178180359033133218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bounce/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2198951761550169351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIUp/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2234348809046320942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Crackling/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2238540910732676549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LavaRumble/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -3700,6 +7510,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &2328083302167671193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Crackling/DiffuseReverb
+  m_EditorClassIdentifier: 
+  Name: DiffuseReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 494133788
+    data2: 1556820638
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &2363925198780011102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3720,6 +7554,102 @@ MonoBehaviour:
   ID:
     data1: 3338417344
     data2: 1493020087
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2364285879259177416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIUp/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2395340936244664145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LavaRumble/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2401183453710676697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicNotEngaged/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2463203451744542818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicEngaged/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -3748,6 +7678,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &2734484820791715001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIDown/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &3079670097372854689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3768,6 +7722,102 @@ MonoBehaviour:
   ID:
     data1: 494133788
     data2: 1556820638
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3092924262958929287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicNotEngaged/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3093468566598066438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: parameter:/XLow
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3121833714095103149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WinSong/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3192667972321552145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Roll/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -3829,6 +7879,135 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &3273312176738030757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bounce/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3288940533382286121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicEngaged/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3322764275014409563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StartMusic/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3442455425450600480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Restart
+  m_EditorClassIdentifier: 
+  Path: event:/Restart
+  Guid:
+    Data1: -1547238161
+    Data2: 1301901018
+    Data3: 841384346
+    Data4: -473753301
+  Banks:
+  - {fileID: 5359358127590609040}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -3364105629404941489}
+  - {fileID: -4672584906483544747}
+  - {fileID: -7861845580712445883}
+  - {fileID: -4954608735744132542}
+  - {fileID: -8530785858247221497}
+  - {fileID: 8530954037708437061}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1263
+--- !u!114 &3462458766461457645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Crackling/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &3479519416134583081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3852,7 +8031,12 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -935595314356683106}
+  - {fileID: 984576253224499498}
+  - {fileID: -661264440538288034}
+  - {fileID: 340901319901443017}
+  - {fileID: 5110214157685287946}
   MinDistance: 1
   MaxDistance: 20
   Length: 115450
@@ -3904,6 +8088,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &3656434468367734296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bounce/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &3661742601651086423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3929,9 +8137,38 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters:
   - {fileID: 4805913422536231178}
+  - {fileID: 2364285879259177416}
+  - {fileID: -555187361091257657}
+  - {fileID: 2198951761550169351}
+  - {fileID: -30537286079688496}
+  - {fileID: -6341605073671832828}
   MinDistance: 1
   MaxDistance: 20
   Length: 102
+--- !u!114 &3665171914540850961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: parameter:/EQHigh
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &3700141349710061240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3952,6 +8189,174 @@ MonoBehaviour:
   ID:
     data1: 3452064463
     data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3911535464083049004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Popping/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3929656409003929920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Popping/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3964284355497647088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WinSong/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4009290460784512317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIDown/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4049020530106288770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Crackling/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4143152590672520812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: parameter:/GlobalCompressor
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4247451432037622905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UISelect/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -3980,6 +8385,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &4326987149165513735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WetLevel
+  m_EditorClassIdentifier: 
+  Name: WetLevel
+  StudioPath: parameter:/WetLevel
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1427156126
+    data2: 3445758427
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &4349782322739191501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4000,6 +8429,30 @@ MonoBehaviour:
   ID:
     data1: 494133788
     data2: 1556820638
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4408430862487193281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LoseSong/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -4129,6 +8582,11 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters:
   - {fileID: -975691669338276558}
+  - {fileID: -969118116938392343}
+  - {fileID: 5059153497802588166}
+  - {fileID: 5836329794959630072}
+  - {fileID: -303078820968248695}
+  - {fileID: -4911161364579574326}
   MinDistance: 1
   MaxDistance: 20
   Length: 638
@@ -4176,6 +8634,54 @@ MonoBehaviour:
   ID:
     data1: 3452064463
     data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4836709369590192542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bounce/BounceIntensity
+  m_EditorClassIdentifier: 
+  Name: BounceIntensity
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 287485761
+    data2: 2194673470
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &4887191837279609397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Roll/DensityReverb
+  m_EditorClassIdentifier: 
+  Name: DensityReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3338417344
+    data2: 1493020087
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -4300,7 +8806,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &5065914805185659265
+--- !u!114 &5039628259293318588
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4310,16 +8816,132 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Check/ReverbTime
+  m_Name: parameter:/Popping/EQHigh
   m_EditorClassIdentifier: 
-  Name: ReverbTime
+  Name: EQHigh
   StudioPath: 
   Min: 0
   Max: 1
-  Default: 0
+  Default: 1
   ID:
-    data1: 4111248738
-    data2: 2996271287
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5059153497802588166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IQuitdialogue/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5068181110765313994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIDown/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5110214157685287946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StartMusic/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5359358127590609040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638792083239175491
+  FileSizes:
+  - Name: Desktop
+    Value: 10337952
+  Exists: 1
+--- !u!114 &5426632882627844215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LavaRumble/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -4356,6 +8978,62 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &5535835406656931480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Explosion
+  m_EditorClassIdentifier: 
+  Path: event:/Explosion
+  Guid:
+    Data1: 1195803091
+    Data2: 1267683135
+    Data3: -219004000
+    Data4: -948715160
+  Banks:
+  - {fileID: 5359358127590609040}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -9066034243364688942}
+  - {fileID: -5066240947389102334}
+  - {fileID: 7699812679046792241}
+  - {fileID: 8345466574669050534}
+  - {fileID: -1644151297910879792}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3000
+--- !u!114 &5536135296081141415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicEngaged/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &5606264792460116003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4379,10 +9057,39 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 1807830867938988856}
+  - {fileID: -5006583671761473302}
+  - {fileID: -5145733979575937982}
+  - {fileID: 4408430862487193281}
+  - {fileID: -1886389868318052094}
   MinDistance: 1
   MaxDistance: 20
   Length: 248633
+--- !u!114 &5617204154897805832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Popping/WetLevel
+  m_EditorClassIdentifier: 
+  Name: WetLevel
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1427156126
+    data2: 3445758427
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &5629343466153608943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4455,6 +9162,67 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &5718580535518410746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Popping/ReverbTime
+  m_EditorClassIdentifier: 
+  Name: ReverbTime
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4111248738
+    data2: 2996271287
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5731307307580020644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Crackling
+  m_EditorClassIdentifier: 
+  Path: event:/Crackling
+  Guid:
+    Data1: 449675106
+    Data2: 1244651487
+    Data3: 464245916
+    Data4: 146851023
+  Banks:
+  - {fileID: 5359358127590609040}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 455661199094533969}
+  - {fileID: -3427567987993117451}
+  - {fileID: -5804272705497565462}
+  - {fileID: -8045306861771857980}
+  - {fileID: -7046170056528323196}
+  - {fileID: 9076511483137945551}
+  - {fileID: 3462458766461457645}
+  - {fileID: 363715063900425969}
+  - {fileID: 2328083302167671193}
+  - {fileID: 6476091132629927770}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5800
 --- !u!114 &5771200130897962899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4551,6 +9319,78 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &5836329794959630072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IQuitdialogue/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5847958239149210333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusicNotEngaged/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5884035672319347289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Popping/XLow
+  m_EditorClassIdentifier: 
+  Name: XLow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.22
+  ID:
+    data1: 2801392177
+    data2: 104704222
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &5952589506285174016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4618,6 +9458,30 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 10313952
+  Exists: 1
+--- !u!114 &6059979339922647491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Roll/RollSpeed
+  m_EditorClassIdentifier: 
+  Name: RollSpeed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2120290521
+    data2: 1955253808
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &6086986085175619601
 MonoBehaviour:
@@ -4715,6 +9579,39 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &6360845339310450506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UIDown
+  m_EditorClassIdentifier: 
+  Path: event:/UIDown
+  Guid:
+    Data1: -1676610051
+    Data2: 1317726073
+    Data3: 1304831650
+    Data4: -1219667741
+  Banks:
+  - {fileID: 5359358127590609040}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 6633566401113101151}
+  - {fileID: 2734484820791715001}
+  - {fileID: -6988554258422653536}
+  - {fileID: 5068181110765313994}
+  - {fileID: 4009290460784512317}
+  - {fileID: 8405900229960377526}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 45
 --- !u!114 &6375585557237203748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4764,9 +9661,38 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters:
   - {fileID: 759306384630636501}
+  - {fileID: 6424235574624756377}
+  - {fileID: -2633021585148003213}
+  - {fileID: 4247451432037622905}
+  - {fileID: -7174810126591953109}
+  - {fileID: -8245326304741182584}
   MinDistance: 1
   MaxDistance: 20
   Length: 48
+--- !u!114 &6424235574624756377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UISelect/XHigh
+  m_EditorClassIdentifier: 
+  Name: XHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.69
+  ID:
+    data1: 1061227788
+    data2: 874441960
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &6450127083120690084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4787,6 +9713,30 @@ MonoBehaviour:
   ID:
     data1: 3452064463
     data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6476091132629927770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Crackling/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -4867,6 +9817,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 45
+--- !u!114 &6633566401113101151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIDown/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6702207134276460502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StartMusic/EQ Medium
+  m_EditorClassIdentifier: 
+  Name: EQ Medium
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 458552346
+    data2: 2137251956
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &6719938514297661418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4887,6 +9885,30 @@ MonoBehaviour:
   ID:
     data1: 494133788
     data2: 1556820638
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6740019788496190087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GoToLoop
+  m_EditorClassIdentifier: 
+  Name: GoToLoop
+  StudioPath: parameter:/GoToLoop
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3101506238
+    data2: 2314111842
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -4915,6 +9937,38 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &6922655991397637665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WinSong
+  m_EditorClassIdentifier: 
+  Path: event:/WinSong
+  Guid:
+    Data1: -1695951162
+    Data2: 1248788386
+    Data3: -953425249
+    Data4: -2051319428
+  Banks:
+  - {fileID: 5359358127590609040}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 8651800344485486481}
+  - {fileID: -7811470148547587268}
+  - {fileID: -8543850574210683410}
+  - {fileID: 3964284355497647088}
+  - {fileID: -1015742722592193703}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 140329
 --- !u!114 &6928587567033995356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4996,6 +10050,11 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters:
   - {fileID: 8139838752739873804}
+  - {fileID: -4806955327710063340}
+  - {fileID: -4177442557134812222}
+  - {fileID: -7753170650795554286}
+  - {fileID: -3602634303256726493}
+  - {fileID: -3729483007319267806}
   MinDistance: 1
   MaxDistance: 20
   Length: 45
@@ -5047,6 +10106,63 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &7132964813996813988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UIUp
+  m_EditorClassIdentifier: 
+  Path: event:/UIUp
+  Guid:
+    Data1: 585417493
+    Data2: 1201092892
+    Data3: -143043674
+    Data4: 1446694843
+  Banks:
+  - {fileID: 5359358127590609040}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 1804683106018097152}
+  - {fileID: -3801039749883465779}
+  - {fileID: -3933012952763052833}
+  - {fileID: -4263297778099412995}
+  - {fileID: -5789036362940479934}
+  - {fileID: -495065122892469808}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 102
+--- !u!114 &7159131719701173800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UISelect/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &7398816939215922897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5067,6 +10183,30 @@ MonoBehaviour:
   ID:
     data1: 3338417344
     data2: 1493020087
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7699812679046792241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Explosion/ReverbTime
+  m_EditorClassIdentifier: 
+  Name: ReverbTime
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4111248738
+    data2: 2996271287
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -5127,30 +10267,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5800
---- !u!114 &7993597902027920574
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Check/GlobalCompressor
-  m_EditorClassIdentifier: 
-  Name: GlobalCompressor
-  StudioPath: 
-  Min: -1
-  Max: 1
-  Default: -0.4
-  ID:
-    data1: 3452064463
-    data2: 3848354097
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
 --- !u!114 &7996748626111151408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5271,6 +10387,54 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &8294382330800656080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LavaRumble/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8345466574669050534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Explosion/DensityReverb
+  m_EditorClassIdentifier: 
+  Name: DensityReverb
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3338417344
+    data2: 1493020087
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &8368570997339330788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5288,6 +10452,30 @@ MonoBehaviour:
   Min: -1
   Max: 1
   Default: -1
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8405900229960377526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UIDown/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
   ID:
     data1: 3452064463
     data2: 3848354097
@@ -5318,10 +10506,87 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -1274805006850512859}
+  - {fileID: 3121833714095103149}
+  - {fileID: -9056876741643377896}
+  - {fileID: -8493017676791451293}
+  - {fileID: 449484091944006870}
   MinDistance: 1
   MaxDistance: 20
   Length: 140329
+--- !u!114 &8500448379614055197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Crackling/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8530954037708437061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Restart/GlobalCompressor
+  m_EditorClassIdentifier: 
+  Name: GlobalCompressor
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: -0.4
+  ID:
+    data1: 3452064463
+    data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8574083145277153072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IQuitdialogue/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &8596454434571922017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5342,6 +10607,78 @@ MonoBehaviour:
   ID:
     data1: 3452064463
     data2: 3848354097
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8602392001072637241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LavaRumble/ReverbTime
+  m_EditorClassIdentifier: 
+  Name: ReverbTime
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4111248738
+    data2: 2996271287
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8651800344485486481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WinSong/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8663659305194310417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IQuitdialogue/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -5370,6 +10707,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &8783470720346593863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Restart/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &8911583928638606884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5390,6 +10751,30 @@ MonoBehaviour:
   ID:
     data1: 3101506238
     data2: 2314111842
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8925385306114727805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bounce/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -5422,6 +10807,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 45
+--- !u!114 &9076511483137945551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Crackling/EQ Low
+  m_EditorClassIdentifier: 
+  Name: EQ Low
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2422770732
+    data2: 1410158771
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &9130902148072217825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Roll/EQHigh
+  m_EditorClassIdentifier: 
+  Name: EQHigh
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2529810527
+    data2: 1232863589
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &9131453002225547660
 MonoBehaviour:
   m_ObjectHideFlags: 0

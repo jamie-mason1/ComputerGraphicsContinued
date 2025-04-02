@@ -206,6 +206,7 @@ public class PlayerController : MonoBehaviour
             if (collision.gameObject.GetComponent<Rigidbody>() != null)
             {
                 collision.gameObject.GetComponent<Rigidbody>().AddForce(movementDir * force, ForceMode.Impulse);
+                rb.AddForce(movementDir * force, ForceMode.Impulse);
                 collision.gameObject.GetComponent<Rigidbody>().AddRelativeTorque(movementDir * force, ForceMode.Impulse);
                 explosion.transform.position = collision.contacts[0].point;
                 explosion.Play();
